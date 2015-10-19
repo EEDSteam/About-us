@@ -29,6 +29,7 @@
 	-moz-filter: sepia(100%);
 	-o-filter: sepia(100%);
 	-ms-filter: sepia(100%);
+	/*transition:0.3s;*/
 	
 }
 .team:hover{

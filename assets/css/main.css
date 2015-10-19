@@ -84,6 +84,44 @@
 	.container {
 		width: 1360px;
 	}
+/*why image*/
+	.img-responsive{
+		width:50%;
+		margin: 0px auto;
+		margin-bottom: 15px;
+		margin-top:30px;
+
+	}
+/*goal button*/
+	#movetohow{
+		margin-top:-20px;
+		margin-bottom: 20px;
+		text-decoration: none;
+		height:50px;
+		padding:0.4em 2em 0.5em 2em;
+		color:white;
+		background-color:gray;
+		border:1px gray solid;
+		width:150px;
+	}
+	#movetohow:hover{
+		background:white;
+		color:gray;
+	}
+	p{
+		font-family: "微軟正黑體";
+	}
+	h1{
+		font-family: "微軟正黑體";
+	}
+	h3{
+		font-family: "微軟正黑體";
+	}
+	a{
+		font-family: "微軟正黑體";
+	}
+
+
 
 	@media screen and (max-width: 1680px) {
 
@@ -1415,7 +1453,7 @@
 
 	hr {
 		border: 0;
-		border-top: solid 1px #e6e6e6;
+		border-top: solid 2px #e6e6e6;
 		margin: 2em 0 2em 0;
 	}
 
@@ -1457,6 +1495,7 @@
 
 	footer {
 		padding-top: 1.5em;
+		text-align: center;
 	}
 
 	br.clear {
@@ -1896,6 +1935,7 @@
 		.dark button:hover,
 		.dark .button:hover {
 			background: rgba(255, 255, 255, 0.25);
+			text-decoration: none;
 		}
 
 		.dark input[type="button"].alt,
@@ -1921,7 +1961,7 @@
 	.feature-icon {
 		display: inline-block;
 		position: relative;
-		padding-bottom: 5em;
+		/*padding-bottom: 5em;*/
 		margin-bottom: 2.75em;
 		cursor: default;
 	}
@@ -2002,7 +2042,7 @@
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
-		padding: 14em 0 14em 0;
+		padding: 11em 0 14em 0;
 		text-align: center;
 		color: #fff;
 	}
@@ -2053,7 +2093,7 @@
 			}
 
 		.main > .content {
-			padding: 6em 0 6em 0;
+			padding: 2em 0 2em 0;
 		}
 
 			.main > .content h3 {
