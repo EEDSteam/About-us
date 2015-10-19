@@ -108,6 +108,23 @@
 		background:white;
 		color:gray;
 	}
+	
+		#movetogroup{
+		margin-top:-20px;
+		margin-bottom: 20px;
+		text-decoration: none;
+		height:50px;
+		padding:0.4em 2em 0.5em 2em;
+		color:white;
+		background-color:gray;
+		border:1px gray solid;
+		width:300px;
+	}
+	movetogroup:hover{
+		background:white;
+		color:gray;
+	}
+	
 	p{
 		font-family: "微軟正黑體";
 	}
