@@ -1,4 +1,3 @@
-﻿
 <!DOCTYPE HTML>
 <!--
 	Tessellate by HTML5 UP
@@ -14,8 +13,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="team.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	<body>
 
@@ -88,7 +89,8 @@
 				</header>
 				<div class="content dark style2">
 					<div class="container">
-						<div class="row">
+						<div class="row" style="font-family:Microsoft JhengHei;">
+						<!--
 							<div class="4u 12u(narrow)">
 								<section>
 									<h3>Augue vivamus sed ipsum commodo lorem dolor</h3>
@@ -105,16 +107,78 @@
 									</footer>
 								</section>
 							</div>
-							<div class="8u 12u(narrow)">
-								<div class="row">
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div>
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
+							-->
+							<div class="3u 12u(narrow)">
+								<h3>Leader</h3>
+								<div id="leader" class="image  team">
+									<center>
+										<div class="personal_pic leader"></div>
+									</center>
+								</div>
+								<div style="height:40px;"></div>
+								<div style="margin-left:30px;">
+									<h4>楊嶄璋</h4>
+									<p>電機</p>
 								</div>
 							</div>
+							<div class="3u 12u(narrow)">
+								<h3>Member</h3>
+								<div id="member_1" class="image  team">
+									<center>
+										<div class="personal_pic member_1"></div>
+									</center>
+								</div>
+								<div style="height:40px;"></div>
+								<div style="margin-left:30px;">
+									<h4>呂伯駿</h4>
+									<p>航太</p>
+								</div>
+							</div>
+							<div class="3u 12u(narrow)">
+								<div style="height:45px;"></div>
+								<h3></h3>
+								<div id="member_2" class="image  team">
+									<center>
+										<div class="personal_pic member_2"></div>
+									</center>
+								</div>
+								<div style="height:40px;"></div>
+								<div style="margin-left:30px;">
+									<h4>李季穎</h4>
+									<p>電機</p>
+								</div>
+							</div>
+							<div class="3u 12u(narrow)">
+								<div style="height:45px;"></div>
+								<h3></h3>
+								<div id="member_3" class="image  team">
+									<center>
+										<div class="personal_pic member_3"></div>
+									</center>
+								</div>
+								<div style="height:40px;"></div>
+								<div style="margin-left:30px;">
+									<h4>施巧吟</h4>
+									<p>資訊</p>
+								</div>
+							</div>
+							<script>
+								function up_down(){
+									$('#leader').animate({top:"-=20"},500,"linear",function(){
+										$('#leader').animate({top:"+=20"},500,"linear");										
+									});
+									$('#member_1').delay(250).animate({top:"-=20"},500,"linear",function(){
+										$('#member_1').animate({top:"+=20"},500,"linear");
+									});
+									$('#member_2').delay(500).animate({top:"-=20"},500,"linear",function(){
+										$('#member_2').animate({top:"+=20"},500,"linear");
+									});
+									$('#member_3').delay(750).animate({top:"-=20"},500,"linear",function(){
+										$('#member_3').animate({top:"+=20"},500,"linear");
+									});
+								}
+								setInterval(up_down,4000);
+							</script>
 						</div>
 					</div>
 				</div>
